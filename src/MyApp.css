@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Bacground_parent{
+    max-width: 100%;
+    /* position: absolute; */
+    /* z-index: -1; */
+}
+/**********   " Image_Tag "   ***********/
+
+.Bacground_img{
+    width: 100%;
+    height:  100vh;
+    background-size:100% 100vh ;
+    background-image: url("./Images/bg.jpg");
+    background-repeat: no-repeat;
+    /* position: relative;  */
+}
+
+.Main_div{
+    background-color: #beb9b5; 
+     display: flex; 
+     margin: auto; 
+     max-width: 100%; 
+    /* top: 0; */
+     height: 50px; 
+     justify-content: space-between;   
+} 
+ .Nav_compo{ 
+     display:inline; 
+     display: flex; 
+     cursor: pointer; 
+      /* position: relative;  */
+} 
+.Nav_compo>li{
+    margin-left: 20px;
+    list-style-type: none;
+    margin-top: 10px;
+    text-decoration: none;
+    
+} 
+.Nav_compo>li:hover{
+   background-color: #0a687b;
+   
+} 
+.btn{
+    display: flex;
+    height: 50px;
+    right: 80%;
+} 
+.btn-01{ 
+    width: 75px;
+    margin-right: 5px;
+    background-color: #14383f;
+    border: 0px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+} 
+
+.Dropdown a{
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    position: relative;
+    display: none;
+    list-style-type: none;
+
+}
+.Dropdown:hover li a {
+    display: block;
+    background-color:gray;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}  
+
+
+
+
+/* //********* Sign Up page  **********/
+
+.Signup_Maindiv{
+   top: 0px;
+   position: relative;
+   margin-top: 0px;
+   text-align: center;
+   /* background-color: #1d456d; */
+   
+}
+.Signup_child{
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: #fdf2f2;
+    
+    margin: 10px auto;
+    border-radius: 10px;
+    top: 10px;
+    position:absolute;
+    transform: translate(-50%, -130%);
+    left: 50%;
+
+    
+}
+.Signup_child>h2{
+    margin-top: 20px;
+text-align: center;
+    
+}
+.Input {
+    text-align: center;
+}
+.Input_id{
+    width: 300px;
+}
+/***********  "Login/SignUp -- Submit-Btn"  ************/
+
+.submit-btn{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    /* right: 80%; */
+} 
+.submit-btn-01{ 
+    width: 95px;
+    margin-right: 5px;
+    background-color: #14383f;
+    border: 0px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+} 
